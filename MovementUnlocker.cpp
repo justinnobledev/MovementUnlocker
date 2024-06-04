@@ -38,7 +38,7 @@ const char* pPatchPattern = "xx????xxxxx????xxxx";
 int PatchLen = 6;
 #endif
 
-// From https://git.botox.bz/CSSZombieEscape/sm-ext-PhysHooks
+// From https://git.botox.bz/CSSZombieEscape/sm-ext-PhysHooks 
 uintptr_t FindPattern(uintptr_t BaseAddr, const unsigned char* pData, const char* pPattern, size_t MaxSize, bool Reverse)
 {
 	unsigned char* pMemory;
